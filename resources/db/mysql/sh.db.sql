@@ -1,0 +1,1 @@
+CREATE DATABASE `syshooks` COLLATE = `utf8_unicode_ci`;

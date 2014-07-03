@@ -1,0 +1,6 @@
+[submodule "resources/hooks/woocommerce/resources/rest-api"]
+	path = resources/hooks/woocommerce/resources/rest-api
+	url = git@github.com:tronhammer/WooCommerce-REST-API-Client-Library.git
+[submodule "resources/hooks/ontraport/resources/rest-api"]
+	path = resources/hooks/ontraport/resources/rest-api
+	url = git@github.com:tronhammer/ontra_api_examples.git
