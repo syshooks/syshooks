@@ -5,6 +5,10 @@
 
 abstract class MySQLConnector {
 
+	/**
+	 * @todo Replace rel path with absolute, through path manager.
+	 */
+
  	static private $_credentialsPath = "./../../resources/db/mysql/db.credentials.json";
  	static private $_dbh;
 
@@ -18,7 +22,7 @@ abstract class MySQLConnector {
 			);
 		} catch (PDOException $e) {
 			/** 
-			 * @todo Use primary logging system.
+			 * @todo Use primary logging system and MySQLConnectionException
 			 */
 		    error_log("Connection failed: " . $e->getMessage());
 		    throw new Exception("MySQL failed to connect: " . $e->getMessage());
